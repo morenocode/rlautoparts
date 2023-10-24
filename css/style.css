@@ -24,7 +24,7 @@ body{
 
 a{
     text-decoration: none;
-    color: #000;
+    color: var(--colorBlanco);
 }
 
 .contenedor{
@@ -166,7 +166,9 @@ h3{
 
 /**HEADER*/
 
-
+.img-marcas img{
+    background-color: var(--colorBlanco);
+}
 
 /*.medios-derecha{
     display: grid;
@@ -182,14 +184,18 @@ h3{
     
 }*/
 .fondo-header{
-    background-image: url('./img/fondo-header');
-  
+    background-image: url(../img/fondo-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    
 }
 
 header{
     display: grid;
     grid-template-columns:1fr;
     align-items: center;
+    color: var(--colorBlanco);
 }
 
 @media (min-width: 768px) { 
