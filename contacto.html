@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autopartes</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="superior">
+        <div class="superior-izquierda">
+            <a href="">Comprar</a>
+            <a href="">FAQ</a>
+            <a href="">Contactanos</a>
+            <a href="">Cotiza Ahora</a>
+        </div>
+
+        <div class="superior-derecho">
+            <p><span>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-check" width="18"
+                        height="18" viewBox="" stroke-width="3" stroke="#F02757" fill="none" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M5 12l5 5l10 -10" />
+                    </svg>
+                </span>Oferta de Filtros 20% Dcto para Hyundai y Kia</p>
+        </div>
+
+    </div>
+
+    <header>
+        <a href=""><img class="logo" src="./img/logo.png" alt=""></a>
+
+        <div class="contacto-catalogo">
+            <p>Pide tu catálogo aquí</p>
+            <a href="maito:ventas@autopartesrl.com">ventas@autopartesrl.com</a>
+        </div>
+
+        <div class="contacto-cotiza">
+            <p>Deseas Cotizar tu Repuesto? Contáctanos:</p>
+            <a href="tel:+51960403701">+51 960403701</a>
+        </div>
+
+    </header>
+
+    <div class="border"></div>
+
+    <div class="contenedor-navegacion">
+        <nav class="nav-principal contenedor"><!--AQUI INICA EL NAVEGADOR-->
+            <a href="index.html">Inicio</a>
+            <a href="nosotros.html">Nosotros</a>
+            <a href="tienda.html">Tienda</a>
+            <a href="blog.html">Blog</a>
+            <a href="galeria.html">Galeria</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+    </div>
+
+    <!--<div class="img-central">
+        <img src="img/MEDIO.png" alt="">
+    </div>-->
+
+
+    <main class="contenido-principal contenedor"><!--INCIA SECCION PRINCIPAL-->
+        <h2 class="text-align">Contacto</h2>
+
+        <form class="formulario">
+            
+            <fieldset>
+                <legend>Tus datos</legend>
+
+                <div class="campo">
+                    <label for="nombre">Nombre:</label>
+                    <input id="nombre" type="text" placeholder="Tu nombre" required>
+                </div>
+                
+                <div class="campo">
+                    <label for="asunto">Asunto:</label>
+                    <input id="asunto" type="text" placeholder="Escribe el Asunto" required>
+                </div>
+                
+                <div class="campo">
+                    <label for="email">Email:</label>
+                    <input id="email" type="email" placeholder="Email" required>
+                </div>
+                
+                <div class="campo">
+                    <label for="telefono">Telefono:</label>
+                    <input id="telfono" type="tel" placeholder="Telefono" required>
+                </div>
+                
+                <div class="campo">
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea name="" id="mensaje" cols="30" rows="10"></textarea>           
+                </div>
+                
+            </fieldset><!--RERMINA EL FIELDSET-->
+
+
+            <fieldset>
+                <legend>Departamento</legend>
+
+                <div class="campo">
+                    <label for="pais">Nombre:</label>
+                    <select name="" id="pais">
+                        <option disabled>--SELECCIONAR--</option>
+                        <option value="LI">Lima</option>
+                        <option value="AR">Arequipa</option>
+                        <option value="PI">Piura</option>
+                        <option value="HU">Huánuco</option>
+                        <option value="CM">Chimbote</option>
+                        <option value="AM">Amazonas</option> 
+                    </select>
+                </div>
+                
+                                
+            </fieldset><!--RERMINA EL FIELDSET-->
+
+            <fieldset>
+                <legend>Informacion extra</legend>
+
+                <div class="campo">
+                    <label for="cliente">Cliente:</label>
+                    <input id="cliente" type="radio" name="tipo" value="cliente">
+                </div>
+
+                <div class="campo">
+                    <label for="proveedor">Tienda:</label>
+                    <input class="radio" id="proveedor" type="radio" name="tipo" value="proveedor">
+                </div>
+
+                <div class="campo">
+                    <label for="proveedor">Categoria de intereses:</label>
+                    <input type="text" list="categorias" name="categorias">
+                    <datalist id="categorias">
+                        <option value="Chevrolet">
+                        <option value="Kia">
+                        <option value="Hyundai">
+                        <option value="Daewoo">
+                                                    
+                    </detais>
+                </div>
+                                              
+            </fieldset><!--RERMINA EL FIELDSET-->
+
+            <input type="submit" value="Enviar Formulario" class="btn">
+        </form>
+
+
+    </main>
+
+</body>
+
+</html>
