@@ -1,6 +1,7 @@
 :root{
     --fuentePrincipal:'Nunito', sans-serif;
     --fuenteSecundario:'Cabin ', sans-serif;
+    --fuentePrincipal2:'Krub', sans-serif;
     --colorPrimario:#032890;
     --colorFondo:#F1F3F8;
     --colorBlanco:#ffffff;
@@ -20,13 +21,14 @@ body{
     font-size: 1.6rem;
     /*background-color: #F1F3F8;*/
     line-height: 1.5;
+    font-family: var(--fuentePrincipal2);
 }
 /**GLOBALES**/
 
 a{
     text-decoration: none;
     color: var(--colorBlanco);
-    font-family: var(--fuentePrincipal);
+    font-family: var(--fuentePrincipal2);
 }
 
 .contenedor{
