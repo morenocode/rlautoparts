@@ -1052,7 +1052,17 @@ p{
     background: none;
     position: fixed;
     top: 80%;
-    width: 100px;
+    width: 110px;
+    right: 15px;
+    z-index: 9999;
+    transition: 0.5s;
+}
+
+#whatsapp a:hover {
+    
+    position: fixed;
+    top: 80%;
+    width: 113px;
     right: 15px;
     z-index: 9999;
 }

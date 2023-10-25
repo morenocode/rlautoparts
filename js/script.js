@@ -11,7 +11,7 @@ var swiper = new Swiper(".swiper-hero", {
     speed: 4000,
     autoplay: {
       delay: 1000,
-      pauseOnMouseEnter: true,
+      pauseOnMouseEnter: false,
       disableOnInteraction: false,
     },
 
