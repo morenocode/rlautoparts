@@ -337,7 +337,7 @@ header{
 
 .contenedor-navegacion{
     display: grid;
-    grid-template-columns: auto 1fr;
+    grid-template-columns: 1fr auto ;
     column-gap: 4rem;
     max-width: 120rem;
     color: var(--colorBlanco);
@@ -363,7 +363,7 @@ header{
 .contactanos-izquierda{
     display: flex;
     column-gap: 1rem;
-    align-items: center;
+    align-items: left;
 }
 
 @media (max-width:768px ) { 
