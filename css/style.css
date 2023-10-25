@@ -663,7 +663,7 @@ header{
 
 .oferta-1{
     margin: 0 auto;
-    background: url("../img/fondo-oferta-1.png");  /* Asume que esta es la ruta a tu segunda imagen */
+    background: url("../img/fondo-oferta.png");  /* Asume que esta es la ruta a tu segunda imagen */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -679,7 +679,7 @@ header{
 }
 .oferta-3{
     margin: 0 auto;
-    background: url("../img/fondo-oferta-1.png");  /* Asume que esta es la ruta a tu segunda imagen */
+    background: url("../img/fondo-oferta-kia.png");  /* Asume que esta es la ruta a tu segunda imagen */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
