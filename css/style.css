@@ -271,8 +271,8 @@ header{
 @media (min-width: 768px) {
     .img-marcas{
         display: flex;
-        justify-content: space-between;
-        width: 200px;
+        column-gap: 2rem;
+        width: 150px;
     } 
     
  }
@@ -356,7 +356,7 @@ header{
 .contactanos{
     display: flex;
     align-items: center;
-    column-gap: 2rem;
+    column-gap: 3rem;
 }
 
 
@@ -364,6 +364,7 @@ header{
     display: flex;
     column-gap: 1rem;
     align-items: center;
+    
 }
 
 @media (max-width:768px ) { 
@@ -404,7 +405,7 @@ header{
         display: flex;
         flex-direction: row;
         justify-content: center;
-        column-gap: 15rem;
+        column-gap: 4rem;
         
     }
  }
@@ -463,11 +464,15 @@ header{
 .main{
     text-align: center;
     margin-bottom: 10rem;
+    
 }
 
 .main h2{
-    font-size: 3rem;
-    margin-bottom: 6rem;
+    font-size: 6rem;
+    margin: 10rem;
+    text-transform: uppercase;
+    font-family: var(--fuentePrincipal2);
+    font-weight: 900;
 }
 
 @media (min-width: 768px) { 
