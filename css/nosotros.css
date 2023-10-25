@@ -598,7 +598,7 @@ header{
 
 
 
-/**MENU DE NAVEGACION**/
+/**MENU DE NAVEGACION OTRO**/
 
 .logo-minimo{
     width: 80px;
@@ -664,7 +664,7 @@ header{
 
 .dropdown{
     position: absolute;
-    background-color: #000;
+    background-color: rgb(202, 25, 25);
     width: 75%;
     max-width: 300px;
     right: 0;
@@ -692,10 +692,10 @@ header{
 }
 
 .dropdown__link{
-    color: rgb(184, 187, 191);
+    color: var(--colorBlanco);
     padding: 1em .7em;
     text-decoration: none;
-    
+    font-weight: bold;
     display: flex;
     align-items: center;
     gap: .6rem;
@@ -708,7 +708,7 @@ header{
 .dropdown__list:has( :checked ){
     --rows: 1fr;
     --rotate: rotate(180deg);
-    --bg: #28303B;
+    --bg: #ffffff;
 }
 
 .dropdown__check{
@@ -803,6 +803,8 @@ header{
         display: block;
     }
     
+   
+
     .dropdown{
         position: absolute;
         background-color: #000;
@@ -832,8 +834,9 @@ header{
         width: 20px;
     }
     
+    
     .dropdown__link{
-        color: rgb(184, 187, 191);
+        color: rgb(255, 255, 255);
         padding: 1em .7em;
         text-decoration: none;
         
