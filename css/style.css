@@ -1593,6 +1593,13 @@ p{
   cursor: pointer; /* Cambia el cursor al pasar por encima */
  }
 
+@media (max-width:768px ) { 
+    .boton{
+        padding:0.7rem 2rem; /* Espaciado interno del botón */
+        cursor: pointer; /* Cambia el cursor al pasar por encima */
+       }
+ }
+ 
  .boton:hover{
     text-decoration: none;
     border: solid 3px  var(--colorBlanco);
