@@ -319,7 +319,7 @@ header{
 
 /**nav*/
 .fondo-navegacion{
-    background-color: var(--colorPrimario);
+    background-color: rgb(194, 11, 11);
 }
 
 .contenedor-navegacion{
@@ -401,11 +401,12 @@ header{
     align-items: center;
     font-weight: bold;
     transition: 0.5s;
-    padding-bottom: 1.5rem;
+    padding-bottom: 1rem;
     margin-bottom: 0;
     text-transform: uppercase;
-    text-decoration:underline;
     color: var(--colorBlanco);
+    text-decoration: none; /* Quita el subrayado predeterminado */
+    position: relative; 
 }
 @media (min-width: 768px) { 
     .nav-principal a{
@@ -413,14 +414,27 @@ header{
         font-weight: bold;
         transition: 0.5s;
         color: var(--colorBlanco);
+        
     }
  }
 
 
 .nav-principal a:hover{
-    color: #F02757;
+    color: #ffffff;
     font-size: 1.7rem;
+    
 }
+
+.nav-principal a:hover::after{
+    content: ''; /* Agrega un contenido vacío para crear la línea de fondo */
+    display: block; /* Convierte el contenido en un bloque */
+    height: 2px; /* Altura de la línea de fondo */
+    width: 120%; /* Ancho de la línea de fondo (puede ajustarse según sea necesario) */
+    background-color: white; /* Color de la línea de fondo */
+    position: absolute; /* Establece la posición absoluta para que se ajuste debajo del texto */
+    bottom: 3px; /* Ajusta la posición vertical (puede ajustarse según sea necesario) */
+}
+
 /**FIN NAVEGADOR*/
 
 
