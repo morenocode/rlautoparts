@@ -728,12 +728,12 @@ header{
 /**PAGOS UN DIV**/
 
 .pagos{
-    background: linear-gradient(#032890, #00a2ff);
+    background: linear-gradient(#032890, #0a0144);
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    padding:0 2rem;
+    padding:0rem 3rem 2rem 2rem;
     margin: 5rem 0;
-    border-radius: 20px;
+    
     color: var(--colorBlanco);
 }
 
@@ -745,7 +745,7 @@ header{
         grid-template-columns: repeat(4,1fr);
         padding:0 2rem;
         margin: 5rem 0;
-        border-radius: 20px;
+       
         color: var(--colorBlanco);
     }
  }

@@ -6,9 +6,11 @@ var swiper = new Swiper(".swiper-productos", {
 
   direction: "horizontal",
   loop: true,
+  speed: 2500,
   // allowTouchMove: true,
   // effect: "cube",
   autoplay: {
+    
     delay: 2000,
     pauseOnMouseEnter: true,
     disableOnInteraction: false,

@@ -7,9 +7,10 @@ var swiper = new Swiper(".swiper-hero", {
     direction: "horizontal",
     loop: true,
     // allowTouchMove: true,
-    // effect: "cube",
+    effect: "fade",
+    speed: 4000,
     autoplay: {
-      delay: 2000,
+      delay: 1000,
       pauseOnMouseEnter: true,
       disableOnInteraction: false,
     },
@@ -19,7 +20,7 @@ var swiper = new Swiper(".swiper-hero", {
       el: ".swiper-pagination",
       // type: "progressbar"
       clickable: true,
-      // dynamicBullets: true
+      dynamicBullets: true
     },
 
     // Navigation arrows
