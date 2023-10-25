@@ -178,8 +178,9 @@ p{
 
 
 .img-marcas img{
-    
+    border-radius: 10%;
     transition: 0.6s;
+    
 }
 
 .img-marcas img:hover{
@@ -468,7 +469,7 @@ header{
 }
 
 .main h2{
-    font-size: 6rem;
+    font-size: 4rem;
     margin: 10rem;
     text-transform: uppercase;
     font-family: var(--fuentePrincipal2);
@@ -477,7 +478,7 @@ header{
 
 @media (min-width: 768px) { 
     .main h2{
-        font-size: 3.5rem;
+        font-size: 6rem;
     }
  }
 
