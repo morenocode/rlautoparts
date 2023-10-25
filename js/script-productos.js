@@ -9,7 +9,7 @@ var swiper = new Swiper(".swiper-productos", {
   // allowTouchMove: true,
   // effect: "cube",
   autoplay: {
-    delay: 10000,
+    delay: 2000,
     pauseOnMouseEnter: true,
     disableOnInteraction: false,
   },
