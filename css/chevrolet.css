@@ -189,19 +189,6 @@ p{
     cursor: pointer;
 }
 
-/*.medios-derecha{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: "imagen imagen" "catalogo cotiza";
-    width: 100%;
-}
-.img-marcas{
-    grid-area: imagen;
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    width:100vh;
-    
-}*/
 .fondo-header{
     background-image: url(../img/fondo-header.jpg);
     background-repeat: no-repeat;
@@ -479,7 +466,7 @@ header{
 
 @media (min-width: 768px) { 
     .main h2{
-        font-size: 1rem;
+        font-size: 10rem;
     }
  }
 
