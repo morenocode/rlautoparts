@@ -356,7 +356,7 @@ header{
 .contactanos{
     display: flex;
     align-items: center;
-    column-gap: 4rem;
+    column-gap: 2rem;
 }
 
 
@@ -403,8 +403,8 @@ header{
     .nav-principal{
         display: flex;
         flex-direction: row;
-        justify-content: start;
-        column-gap: 4rem;
+        justify-content: center;
+        column-gap: 15rem;
         
     }
  }
