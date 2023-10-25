@@ -491,7 +491,7 @@ header{
 @media (min-width: 768px) { 
     .galeria-principal{
         display: grid;
-        grid-template-columns: repeat(5,1fr);
+        grid-template-columns: repeat(4,1fr);
 
     }
  }
@@ -1577,3 +1577,26 @@ p{
     } 
     
  }
+
+ .boton{
+  position: absolute;
+  font-family: var(--fuentePrincipal);
+  font-weight: bold;
+  font-size: 2rem;
+  border: solid 3px  var(--colorPrimario);
+  top: 83%; /* Coloca el botón en el centro vertical */
+  left: 50%; /* Coloca el botón en el centro horizontal */
+  transform: translate(-50%, -50%); /* Corrige el centrado */
+  background-color: #ffffff; /* Color de fondo del botón */
+  color: var(--colorPrimario); /* Color del texto del botón */
+  padding:1rem 3rem; /* Espaciado interno del botón */
+  cursor: pointer; /* Cambia el cursor al pasar por encima */
+ }
+
+ .boton:hover{
+    text-decoration: none;
+    border: solid 3px  var(--colorBlanco);
+    color: var(--colorBlanco);
+    background-color: red;
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+   }
