@@ -20,7 +20,7 @@ var swiper = new Swiper(".swiper-hero", {
       el: ".swiper-pagination",
       // type: "progressbar"
       clickable: true,
-      dynamicBullets: true
+      dynamicBullets: true,
     },
 
     // Navigation arrows

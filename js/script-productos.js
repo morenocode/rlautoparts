@@ -20,8 +20,8 @@ var swiper = new Swiper(".swiper-productos", {
   pagination: {
     el: ".swiper-pagination",
     // type: "progressbar"
-    clickable: true,
-    // dynamicBullets: true
+    clickable: false,
+    //dynamicBullets: false,
   },
 
   // Navigation arrows

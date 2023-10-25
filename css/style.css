@@ -469,11 +469,12 @@ header{
 }
 
 .main h2{
-    font-size: 4rem;
-    margin: 10rem;
+    font-size: 3rem;
+    text-align: center;
+    margin: 5rem;
     text-transform: uppercase;
     font-family: var(--fuentePrincipal2);
-    font-weight: 900;
+    
 }
 
 @media (min-width: 768px) { 
@@ -484,7 +485,7 @@ header{
 
 .galeria-principal{
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(1,1fr);
     gap: 3rem;
 }
 
@@ -543,11 +544,19 @@ header{
 .productos-variados{
     margin-bottom: 5rem;
 }
-
 .productos-variados h2{
-    margin-bottom: 2rem;
     font-size: 3rem;
+    text-align: center;
+    margin: 5rem;
+    text-transform: uppercase;
+    font-family: var(--fuentePrincipal2);
 }
+
+@media (min-width: 768px) { 
+    .productos-variados h2{
+        font-size: 6rem;
+    }
+ }
 
 .productos{
     display: grid;
@@ -1258,6 +1267,7 @@ p{
   }
 
   .swiper-productos .swiper-pagination {
+    display: none;
     --swiper-pagination-color: white;
     --swiper-pagination-bullet-size: 6px;
     --swiper-pagination-bullet-inactive-color: #000;
@@ -1584,7 +1594,7 @@ p{
   font-weight: bold;
   font-size: 2rem;
   border: solid 3px  var(--colorPrimario);
-  top: 83%; /* Coloca el botón en el centro vertical */
+  top: 85%; /* Coloca el botón en el centro vertical */
   left: 50%; /* Coloca el botón en el centro horizontal */
   transform: translate(-50%, -50%); /* Corrige el centrado */
   background-color: #ffffff; /* Color de fondo del botón */
