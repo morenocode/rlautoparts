@@ -176,13 +176,14 @@ p{
 
 
 .img-marcas img{
-    background-color: var(--colorBlanco);
+    
     transition: 0.6s;
 }
 
 .img-marcas img:hover{
-    background-color: rgb(247, 255, 8);
-    padding: 1rem;
+    
+    padding: 0.6rem;
+    cursor: pointer;
 }
 
 /*.medios-derecha{
@@ -229,6 +230,14 @@ header{
     margin: auto;
     margin-bottom: 3rem;
     margin-top: 3rem;
+    transition: 0.5s;
+    
+}
+.logo:hover{
+    width: 205px;
+    height: 205px;
+  
+    
     
 }
 
