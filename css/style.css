@@ -165,9 +165,18 @@ h3{
 }
 
 /**HEADER*/
+.img-marcas{
+    border-radius: 
+}
 
 .img-marcas img{
     background-color: var(--colorBlanco);
+    transition: 0.6s;
+}
+
+.img-marcas img:hover{
+    background-color: rgb(247, 255, 8);
+    padding: 1rem;
 }
 
 /*.medios-derecha{
