@@ -458,7 +458,7 @@ header{
 }
 
 .main h2{
-    font-size: 3rem;
+    font-size: 2rem;
     text-align: center;
     margin: 5rem;
     text-transform: uppercase;
@@ -466,17 +466,17 @@ header{
     
 }
 
+
 @media (min-width: 768px) { 
     .main h2{
-        font-size: 5rem;
+        font-size: 4rem;
+        text-align: center;
+        margin: 5rem;
+        text-transform: uppercase;
+        font-family: var(--fuentePrincipal2);
+        
     }
  }
-
-.galeria-principal{
-    display: grid;
-    grid-template-columns: repeat(1,1fr);
-    gap: 3rem;
-}
 
 @media (min-width: 768px) { 
     .galeria-principal{
@@ -549,8 +549,8 @@ header{
 
 .productos{
     display: grid;
-    grid-template-columns: repeat(1,1fr);
-    row-gap: 2rem;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
 }
 
 @media (min-width:768px) { 
@@ -563,14 +563,8 @@ header{
 
 .producto{
     background-color: var(--colorBlanco);
-    padding: 1rem;
+    
 }
-
-.producto:hover{
-    background-color: var(--colorBlanco);
-    padding: 1rem;
-}
-
 
 .producto img{
     cursor: pointer;
@@ -579,10 +573,6 @@ header{
     transition: box-shadow 0.3s ease-in-out;
 }
 
-.producto img:hover{
-    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.5);
-    
-}
 
 /**EDICION DE PRODUCTOS**/
 .producto h4{
@@ -592,19 +582,48 @@ header{
     margin-top: 1rem;
     text-align: start;
 }
-
-.producto p{
-    font-family: var(--fuentePrincipal2);
-    font-weight: 600;
-    margin: 0;
-    margin-bottom: 2rem;
-    padding: 0;
-    text-align: start;
-}
-
 .producto span{
     font-weight: bold;
+    font-size: 1.6rem;
 }
+
+.producto .modelo{
+    font-family: var(--fuentePrincipal2);
+    font-weight:500;
+    margin: 0;
+    margin-top: 2rem;
+    padding: 0;
+    text-align: start;
+    font-size: 1.5rem;
+
+}
+
+.producto .stock{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    color: #087819;
+    text-align: start;
+    text-transform: uppercase;
+    font-size: 1rem;
+    margin: 3px 0;
+}
+
+.iconos{
+    display: flex;
+    justify-content: start;
+    align-items: self-start;
+    margin: 0;
+    margin-bottom: 2rem;
+}
+
+.iconos .icon{
+    margin: 0;
+}
+
+.descripcion-producto{
+    padding-left: 1rem;
+}
+
 
 .boton-whatsapp{
     margin-top: 0.5rem;
@@ -632,7 +651,7 @@ header{
     justify-content: center;
     text-decoration: none;
     color: var(--colorBlanco);
-    background-color: var(--colorPrimario);
+    background-color: rgb(219, 7, 7);
     padding: 1rem 2rem;
     font-size: 1.5rem;
     font-weight: bold;
@@ -645,7 +664,7 @@ header{
 .boton-compra:hover{
     text-decoration: none;
     color: var(--colorBlanco);
-    background-color: red;
+    background-color: var(--colorPrimario);
     padding: 1.2rem 2.2rem;
     font-size: 1.6rem;
 }
