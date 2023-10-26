@@ -566,6 +566,12 @@ header{
     padding: 1rem;
 }
 
+.producto:hover{
+    background-color: var(--colorBlanco);
+    padding: 1rem;
+}
+
+
 .producto img{
     cursor: pointer;
     display: block;
