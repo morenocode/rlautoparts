@@ -6,6 +6,7 @@
     --colorFondo:#F1F3F8;
     --colorBlanco:#ffffff;
     --colorWhatsapp:#2EB343;
+    --colorEstrella:#FFC100;
 }
 
 html {
@@ -584,8 +585,15 @@ header{
 }
 .producto span{
     font-weight: bold;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
 }
+
+@media (min-width: 768px) { 
+    .producto span{
+        font-weight: bold;
+        font-size: 1.6rem;
+    }
+ }
 
 .producto .modelo{
     font-family: var(--fuentePrincipal2);
@@ -594,9 +602,14 @@ header{
     margin-top: 2rem;
     padding: 0;
     text-align: start;
-    font-size: 1.5rem;
-
+    font-size: 1.3rem;
 }
+
+@media (min-width: 768px) { 
+    .producto .modelo{
+        font-size: 1.5rem;
+    }
+ }
 
 .producto .stock{
     font-family: Arial, Helvetica, sans-serif;
@@ -618,6 +631,9 @@ header{
 
 .iconos .icon{
     margin: 0;
+    color: var(--colorEstrella);
+    width:13px;
+    height:13px;
 }
 
 .descripcion-producto{
