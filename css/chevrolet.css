@@ -599,7 +599,7 @@ header{
     font-family: var(--fuentePrincipal2);
     font-weight:500;
     margin: 0;
-    margin-top: 2rem;
+    margin-top: 0.5rem;
     padding: 0;
     text-align: start;
     font-size: 1.3rem;
