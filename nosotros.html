@@ -4,12 +4,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nosotros</title>
+    <title>Chevrolet</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/nosotros.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Nunito:wght@400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Krub:wght@400;500;600;700&family=Nunito:wght@400;600;700&display=swap"
+        rel="stylesheet">
+
 </head>
 
 <body>
@@ -43,10 +56,11 @@
 
             <div class="medios-derecha">
                 <div class="img-marcas">
-                    <img src="./img/kia1.png" alt="">
-                    <img src="./img/hyundai.png" alt="">
-                    <img src="./img/daewoo.png" alt="">
-                    <img src="./img/cherolet.png" alt="">
+                    <img src="./img/chevrolet-sinfondo1.png" alt="">
+                    <img src="./img/kia-sinfondo1.png" alt="">
+                    <img src="./img/hyundai-sinfondo1.png" alt="">
+                    <img src="./img/daewo-sinfondo1.png" alt="">
+                    <img src="./img/ssangyong-sinfondo1.png" alt="">
                 </div>
                 <div class="medios-catalogo">
                     <div class="contacto-catalogo">
@@ -69,6 +83,15 @@
         <div class="contenedor-navegacion contenedor">
 
             <div class="contactanos">
+                <nav class="nav-principal contenedor"><!--AQUI INICA EL NAVEGADOR-->
+                    <a href="index.html">Inicio</a>
+                    <a href="nosotros.html">Nosotros</a>
+                    <a href="chevrolet.html">Chevrolet</a>
+                    <a href="kia.html">Kia</a>
+                    <a href="hyundai.html">Hyundai</a>
+                    <a href="daewoo.html">Daewoo</a>
+                    <a href="ssangyong.html">ssangyong</a>
+                </nav>
                 <div class="contactanos-izquierda">
                     <div class="icono-mensaje">
                         <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail-forward"
@@ -102,65 +125,70 @@
                     </div>
 
                     <div class="mensajes-derecha">
-                        <h3>¿Necesita ayuda?</h3>
+                        <h3>Contáctanos:</h3>
                         <p>+51 960 403 701</p>
                     </div>
                 </div>
 
             </div>
-            <nav class="nav-principal contenedor"><!--AQUI INICA EL NAVEGADOR-->
-                <a href="index.html">Inicio</a>
-                <a href="nosotros.html">Nosotros</a>
-                <a href="tienda.html">Tienda</a>
-            </nav>
+
+
 
             <!--DESDE AQUI INICIA EL MENU CORTO-->
             <nav class="nav">
 
                 <div class="nav__container">
-        
+
                     <a href=""><img class="logo-minimo" src="./img/rlLogo.png" alt=""></a>
-        
+
                     <a href="#menu" class="nav__menu">
                         <img src="./assets/menu.svg" class="nav__icon">
                     </a>
-        
+
                     <a href="#" class="nav__menu nav__menu--second">
                         <img src="./assets/close.svg" class="nav__icon ">
                     </a>
-        
+
                     <ul class="dropdown" id="menu">
-        
+
                         <li class="dropdown__list">
                             <a href="index.html" class="dropdown__link">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="dropdown__icon icon icon-tabler icon-tabler-brand-google-home" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                                    <path d="M19.072 21h-14.144a1.928 1.928 0 0 1 -1.928 -1.928v-6.857c0 -.512 .203 -1 .566 -1.365l7.07 -7.063a1.928 1.928 0 0 1 2.727 0l7.071 7.063c.363 .362 .566 .853 .566 1.365v6.857a1.928 1.928 0 0 1 -1.928 1.928z" />
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                    class="dropdown__icon icon icon-tabler icon-tabler-brand-google-home" width="20"
+                                    height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path
+                                        d="M19.072 21h-14.144a1.928 1.928 0 0 1 -1.928 -1.928v-6.857c0 -.512 .203 -1 .566 -1.365l7.07 -7.063a1.928 1.928 0 0 1 2.727 0l7.071 7.063c.363 .362 .566 .853 .566 1.365v6.857a1.928 1.928 0 0 1 -1.928 1.928z" />
                                     <path d="M7 13v4h10v-4l-5 -5" />
                                     <path d="M14.8 5.2l-11.8 11.8" />
                                     <path d="M7 17v4" />
                                     <path d="M17 17v4" />
-                                  </svg>
+                                </svg>
                                 <span class="dropdown__span">Inicio</span>
                             </a>
                         </li>
-        
+
                         <li class="dropdown__list">
                             <a href="nosotros.html" class="dropdown__link">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="dropdown__icon icon icon-tabler icon-tabler-align-box-left-top" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                                    <path d="M3 3m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z" />
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                    class="dropdown__icon icon icon-tabler icon-tabler-align-box-left-top" width="20"
+                                    height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path
+                                        d="M3 3m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z" />
                                     <path d="M9 13h-2" />
                                     <path d="M13 10h-6" />
                                     <path d="M11 7h-4" />
-                                  </svg>
+                                </svg>
                                 <span class="dropdown__span">Nosotros</span>
                                 <img src="./assets/down.svg" class="dropdown__arrow">
-        
+
                                 <input type="checkbox" class="dropdown__check">
                             </a>
-        
-                    <!--       <div class="dropdown__content">
+
+                            <!--       <div class="dropdown__content">
         
                                 <ul class="dropdown__sub">
         
@@ -176,25 +204,28 @@
         
                                 </ul>
         
-                            </div>--> 
+                            </div>-->
                         </li>
-        
+
                         <li class="dropdown__list">
                             <a href="tienda.html" class="dropdown__link">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="dropdown__icon icon icon-tabler icon-tabler-shopping-cart" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                    class="dropdown__icon icon icon-tabler icon-tabler-shopping-cart" width="20"
+                                    height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                                     <path d="M6 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
                                     <path d="M17 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
                                     <path d="M17 17h-11v-14h-2" />
                                     <path d="M6 5l14 1l-1 7h-13" />
-                                  </svg>
+                                </svg>
                                 <span class="dropdown__span">Tienda</span>
                                 <img src="./assets/down.svg" class="dropdown__arrow">
-        
+
                                 <input type="checkbox" class="dropdown__check">
                             </a>
-        
-                     <!--       <div class="dropdown__content">
+
+                            <!--       <div class="dropdown__content">
         
                                 <ul class="dropdown__sub">
         
@@ -210,33 +241,60 @@
         
                             </div> -->
                         </li>
-        
+
                         <li class="dropdown__list">
                             <a href="https://wa.me/51960403701" class="dropdown__link">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="dropdown__icon icon icon-tabler icon-tabler-help-octagon" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                                    <path d="M9.103 2h5.794a3 3 0 0 1 2.122 .879l4.101 4.1a3 3 0 0 1 .88 2.125v5.794a3 3 0 0 1 -.879 2.122l-4.1 4.101a3 3 0 0 1 -2.123 .88h-5.795a3 3 0 0 1 -2.122 -.88l-4.101 -4.1a3 3 0 0 1 -.88 -2.124v-5.794a3 3 0 0 1 .879 -2.122l4.1 -4.101a3 3 0 0 1 2.125 -.88z" />
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                    class="dropdown__icon icon icon-tabler icon-tabler-help-octagon" width="20"
+                                    height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path
+                                        d="M9.103 2h5.794a3 3 0 0 1 2.122 .879l4.101 4.1a3 3 0 0 1 .88 2.125v5.794a3 3 0 0 1 -.879 2.122l-4.1 4.101a3 3 0 0 1 -2.123 .88h-5.795a3 3 0 0 1 -2.122 -.88l-4.101 -4.1a3 3 0 0 1 -.88 -2.124v-5.794a3 3 0 0 1 .879 -2.122l4.1 -4.101a3 3 0 0 1 2.125 -.88z" />
                                     <path d="M12 16v.01" />
                                     <path d="M12 13a2 2 0 0 0 .914 -3.782a1.98 1.98 0 0 0 -2.414 .483" />
-                                  </svg>
+                                </svg>
                                 <span class="dropdown__span">Ayuda</span>
                             </a>
                         </li>
-        
+
                     </ul>
-        
+
                 </div>
-        
+
             </nav>
-            <!--DESDE AQUI FIN EL MENU CORTO-->
+            <!--DESDE AQUI INICIA EL MENU CORTO-->
         </div>
 
     </div>
 
+    <!-- Slider main container -->
+    <div class="swiper swiper-hero">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+                <img src="./img/slider1.jpg" alt="" />
+            </div>
+
+            <div class="swiper-slide">
+                <img src="./img/slider3.jpg" alt="" />
+            </div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+        <!-- If we need scrollbar -->
+        <!-- <div class="swiper-scrollbar"></div> -->
+    </div>
+
     <main class="contenedor nosotros">
         <div class="nosotros-imagenes">
-            <img src="https://risingtheme.com/html/demo-partsix/partsix/assets/img/other/about-thumb-list1.webp" alt="">
-            <img src="https://risingtheme.com/html/demo-partsix/partsix/assets/img/other/about-thumb-list1.webp" alt="">
+            <img src="./img/tienda.png" alt="">
         </div>
 
         <div class="nosotros-contenido">
@@ -276,57 +334,33 @@
         </section>
     </div>
 
-    <section class="nosotros-equipo">
+    <section class="contenedor nosotros-equipo">
         <h2>Nuestro Equipo RL</h2>
         <div class="equipos">
+
             <div class="equipo-1">
-                <img src="https://risingtheme.com/html/demo-partsix/partsix/assets/img/other/team1.webp" alt="">
-                <h4>Erick Gonzales</h4>
+                <img src="./img/img-asesores/erick.png" alt="">
+                <h4>Erick</h4>
                 <p>Asesor de Ventas</p>
             </div><!--FIN DE EQUIPO-->
 
             <div class="equipo-1">
-                <img src="https://risingtheme.com/html/demo-partsix/partsix/assets/img/other/team3.webp" alt="">
-                <h4>Erick Gonzales</h4>
+                <img src="./img/img-asesores/gabriel.png" alt="">
+                <h4>Gabriel</h4>
                 <p>Asesor de Ventas</p>
             </div><!--FIN DE EQUIPO-->
 
             <div class="equipo-1">
-                <img src="https://risingtheme.com/html/demo-partsix/partsix/assets/img/other/team1.webp" alt="">
-                <h4>Erick Gonzales</h4>
+                <img src="./img/img-asesores/noel.png" alt="">
+                <h4>Noel</h4>
                 <p>Asesor de Ventas</p>
             </div><!--FIN DE EQUIPO-->
 
             <div class="equipo-1">
-                <img src="https://risingtheme.com/html/demo-partsix/partsix/assets/img/other/team1.webp" alt="">
-                <h4>Erick Gonzales</h4>
+                <img src="./img/img-asesores/mauricio.png" alt="">
+                <h4>Mauricio</h4>
                 <p>Asesor de Ventas</p>
             </div><!--FIN DE EQUIPO-->
-
-            <div class="equipo-1">
-                <img src="https://risingtheme.com/html/demo-partsix/partsix/assets/img/other/team1.webp" alt="">
-                <h4>Erick Gonzales</h4>
-                <p>Asesor de Ventas</p>
-            </div><!--FIN DE EQUIPO-->
-
-            <div class="equipo-1">
-                <img src="https://risingtheme.com/html/demo-partsix/partsix/assets/img/other/team1.webp" alt="">
-                <h4>Erick Gonzales</h4>
-                <p>Asesor de Ventas</p>
-            </div><!--FIN DE EQUIPO-->
-
-            <div class="equipo-1">
-                <img src="https://risingtheme.com/html/demo-partsix/partsix/assets/img/other/team1.webp" alt="">
-                <h4>Erick Gonzales</h4>
-                <p>Asesor de Ventas</p>
-            </div><!--FIN DE EQUIPO-->
-
-            <div class="equipo-1">
-                <img src="https://risingtheme.com/html/demo-partsix/partsix/assets/img/other/team1.webp" alt="">
-                <h4>Erick Gonzales</h4>
-                <p>Asesor de Ventas</p>
-            </div><!--FIN DE EQUIPO-->
-
 
         </div>
 
@@ -334,9 +368,133 @@
     </section>
     <!-- SIGUENOS -->
     <!--WHATSAPP-->
+    <div class="contenedor contenedor_servicios">
+        <div class="contenedor__servicios">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-truck-delivery" width="40"
+                height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path d="M7 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+                <path d="M17 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+                <path d="M5 17h-2v-4m-1 -8h11v12m-4 0h6m4 0h2v-6h-8m0 -5h5l3 5" />
+                <path d="M3 9l4 0" />
+            </svg>
+            <div class="contenedor__servicios_info">
+                <h4>Envíos a Domicilio</h4>
+                <p>Lima Metropolitana 24/48 horas.</p>
+            </div>
+        </div>
+        <div class="contenedor__servicios">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-credit-card" width="40"
+                height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path d="M3 5m0 3a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v8a3 3 0 0 1 -3 3h-12a3 3 0 0 1 -3 -3z" />
+                <path d="M3 10l18 0" />
+                <path d="M7 15l.01 0" />
+                <path d="M11 15l2 0" />
+            </svg>
+            <div class="contenedor__servicios_info">
+                <h4>Medios de Pago</h4>
+                <p>Aceptamos todas las Tarjetas.</p>
+            </div>
+        </div>
+        <div class="contenedor__servicios">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-phone-call" width="40"
+                height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path
+                    d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
+                <path d="M15 7a2 2 0 0 1 2 2" />
+                <path d="M15 3a6 6 0 0 1 6 6" />
+            </svg>
+            <div class="contenedor__servicios_info">
+                <h4>Customer Support</h4>
+                <p>WhatsApp:+51 960 403 701.</p>
+            </div>
+        </div>
+        <div class="contenedor__servicios">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home-shield" width="40"
+                height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path d="M9 21v-6a2 2 0 0 1 2 -2h1.341" />
+                <path d="M19.682 10.682l-7.682 -7.682l-9 9h2v7a2 2 0 0 0 2 2h5" />
+                <path d="M22 16c0 4 -2.5 6 -3.5 6s-3.5 -2 -3.5 -6c1 0 2.5 -.5 3.5 -1.5c1 1 2.5 1.5 3.5 1.5z" />
+            </svg>
+            <div class="contenedor__servicios_info">
+                <h4>SSL</h4>
+                <p>Compra Segura con SSL.</p>
+            </div>
+        </div>
+    </div>
+    <!-- FIN SERVICIOS -->
+    <!-- SIGUENOS -->
+    <div class="fondo-novedades">
+        <div class="contenedor novedades">
+            <div class="mensajes">
+                <div class="icono-mensaje">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail-filled" width="44"
+                        height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path
+                            d="M22 7.535v9.465a3 3 0 0 1 -2.824 2.995l-.176 .005h-14a3 3 0 0 1 -2.995 -2.824l-.005 -.176v-9.465l9.445 6.297l.116 .066a1 1 0 0 0 .878 0l.116 -.066l9.445 -6.297z"
+                            stroke-width="0" fill="currentColor" />
+                        <path
+                            d="M19 4c1.08 0 2.027 .57 2.555 1.427l-9.555 6.37l-9.555 -6.37a2.999 2.999 0 0 1 2.354 -1.42l.201 -.007h14z"
+                            stroke-width="0" fill="currentColor" />
+                    </svg>
+                </div>
+                <div class="mensaje-contenido">
+                    <h4>Recibe las novedades</h4>
+                    <p>Obtenga las últimas ofertas y más.</p>
+                </div>
+            </div>
+
+            <div class="input-suscribirse">
+                <input class="escribir-email" type="text" placeholder="Escribe tu correo">
+                <input class="boton-suscribe" type="submit" value="Suscribe">
+            </div>
+
+            <div class="siguenos">
+                <p>SÍGUENOS EN:</p>
+                <div class="icono-facebook">
+                    <a href="https://www.facebook.com/autopartesrlsac" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook"
+                            width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
+                        </svg>
+                    </a>
+
+                </div>
+                <div class="icono-instagram">
+                    <a href="https://www.instagram.com/autopartesrlsac/" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram"
+                            width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" />
+                            <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+                            <path d="M16.5 7.5l0 .01" />
+                        </svg></a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- SIGUENOS -->
+    <!--WHATSAPP-->
     <section id="whatsapp" class="py-2">
         <a href="https://wa.me/51960403701"><img src="img/whatsaap1.png" alt=""></a>
     </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="./js/script-productos.js"></script>
 </body>
 
 </html>
