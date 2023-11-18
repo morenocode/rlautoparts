@@ -569,8 +569,8 @@
             </div>
 
             <form name="submit-to-google-sheet">
-                <input name="Email" type="email" placeholder="Email" required>
-                <button type="submit">Send</button>
+                <input type="email" name="Email" placeholder="Email" required>
+                <button type="submit">Enviar</button>
                 <span class="gracias">Gracias por suscribirse</span>
             </form>
 
@@ -614,7 +614,7 @@
     
 
     <script>
-    const scriptURL = 'https://script.google.com/macros/s/AKfycbxScnA4Cu6wGk3whZPeaZy1jiV5EcM9Rb_yft39V3YD8FS6gt-Ft6KPVVZW7j-0M0AhCQ/exec'
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwtbiswKuHNe_60EgaUAe23-DXvnSfA-gRpRzrAMkH710YfR3VwbmK9dknPJ6fz8GEexQ/exec'
     const form = document.forms['submit-to-google-sheet']
 
     form.addEventListener('submit', e => {
@@ -623,6 +623,8 @@
         .then(response => console.log('Success!', response))
         .catch(error => console.error('Error!', error.message))
     })
+
+    console.log
     </script>
 </body>
 
