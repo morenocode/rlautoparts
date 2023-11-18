@@ -568,10 +568,11 @@
                 </div>
             </div>
 
-            <div class="input-suscribirse">
-                <input class="escribir-email" type="text" placeholder="Escribe tu correo">
-                <input class="boton-suscribe" type="submit" value="Suscribe">
-            </div>
+            <form name="submit-to-google-sheet">
+                <input name="Email" type="email" placeholder="Email" required>
+                <button type="submit">Send</button>
+                <span class="gracias">Gracias por suscribirse</span>
+            </form>
 
             <div class="siguenos">
                 <p>SÍGUENOS EN:</p>
@@ -610,6 +611,19 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="./js/script.js"></script>
     <script src="./js/script-productos.js"></script>
+    
+
+    <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxScnA4Cu6wGk3whZPeaZy1jiV5EcM9Rb_yft39V3YD8FS6gt-Ft6KPVVZW7j-0M0AhCQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+
+    form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => console.log('Success!', response))
+        .catch(error => console.error('Error!', error.message))
+    })
+    </script>
 </body>
 
 </html>

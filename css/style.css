@@ -1052,6 +1052,14 @@ p{
     font-family: var(--fuentePrincipal);
     font-weight: bold;
 }
+
+.gracias{
+    color:greenyellow;
+    font-weight: 800;
+    margin-top: 10px;
+    display: block;
+}
+
 .mensajes{
     justify-content: center;
 }
