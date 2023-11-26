@@ -388,21 +388,20 @@ header{
 .main{
     text-align: center;
     margin-bottom: 10rem;
-    
 }
 
 .main h2{
     font-size: 3rem;
+    font-weight: 700;
     text-align: center;
     margin: 5rem;
     text-transform: uppercase;
     font-family: var(--fuentePrincipal2);
-    
 }
 
 @media (min-width: 768px) { 
     .main h2{
-        font-size: 6rem;
+        font-size: 5rem;
     }
  }
 
@@ -469,6 +468,7 @@ header{
 }
 .productos-variados h2{
     font-size: 3rem;
+    font-weight: 700;
     text-align: center;
     margin: 5rem;
     text-transform: uppercase;
@@ -477,7 +477,8 @@ header{
 
 @media (min-width: 768px) { 
     .productos-variados h2{
-        font-size: 6rem;
+        font-size: 5rem;
+        
     }
  }
 
@@ -1217,7 +1218,25 @@ p{
 
  /**SWIPPER**/
 
+ /**SWIPPER BOTON**/
+ .boton {
+    position: absolute;
+    bottom: 10px; /* Ajusta la distancia desde la parte inferior según tus necesidades */
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    display: inline-block;
+    padding: 10px 20px; /* Ajusta el relleno según tus necesidades */
+    background-color: var(--colorPrimario); /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    text-decoration: none; /* Elimina el subrayado del enlace */
+     /* Ajusta el radio de borde según tus necesidades */
+    margin-bottom: 1.6rem;
+}
 
+.boton:hover {
+    background-color: var(--colorNavegador); /* Cambia el color de fondo al pasar el mouse sobre el botón */
+}
 
 
 
