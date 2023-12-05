@@ -552,35 +552,6 @@ header{
     padding: 2rem 0;
     border:4px dotted var(--colorPrimario)
 }
-/**PAGINA NoSotros*/
-
-.contenido-nosotros{
-    display: grid;
-    grid-template-rows: repeat(1,1fr);
-    grid-template-columns: repeat(auto-fit, minimax(25rem, 1fr));
-}
-
-@media (min-width: 768px) { 
-    .contenido-nosotros{
-        grid-template-columns: repeat(2,1fr);
-        grid-template-columns: repeat(auto-fit, minimax(25rem, 1fr));
-        column-gap: 2rem;
-    }
- }
-
-.informacion-nosotros{
-    display: flex;
-    padding: 0 1rem;
-    flex-direction: column;
-    justify-content: center;
-}
-
-@media (min-width: 768px) { 
-    .informacion-nosotros{
-        padding: 0;
-    }
- }
-/**TIENDA**/
 
 /**OFERTAS 1**/
 
