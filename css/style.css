@@ -147,6 +147,7 @@ p{
     }
  }
 
+ /**SUPERIOR DERECHA DE OFERTA YC HECK**/
 .superior-izquierda{
     padding-top: 1rem;
     padding-left: 2.5rem;
@@ -162,17 +163,24 @@ p{
     color: #F02757;
 }   
 .superior-derecho{
+    display: flex;
     padding-top: 1rem;
     padding-right: 2.5rem;
+    justify-content: center;
 }
 
+/**SUPERIOR DERECHA DE OFERTA YC HECK**/
 .superior-derecho span{
-    margin-right: rem;
+    padding-bottom: 0.6rem;
 }
 
 .superior-derecho p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 0.5rem;
     color: white;
-    margin: 0;
+   
 }
 
 /**HEADER*/
